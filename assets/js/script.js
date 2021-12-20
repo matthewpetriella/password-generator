@@ -1,20 +1,18 @@
 //Assignment Code
 
-// 'Generate Password' is now activated (click listener at bottom of code)
+//Function Variables
 var generateBtn = document.querySelector("#generate");
 
-// Arryays for password results 
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var Upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var Character = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", "-", "=", ",", ".", "?", "<", ">"];
 
-// Place holders for confirmation of password criteria 
 var confirmLength = "";
-var confirmCharacter;
 var confirmNum;
-var confirmUpper;
 var confirmLower;
+var confirmUpper;
+var confirmCharacter;
 
 // Inital prompt, will set the length of the password
 function generatePassword() {
